@@ -142,7 +142,7 @@ initial begin
     load = 0;
     reset = 1'b1;         // Assert reset
     M = 4'b0111;          // M = 7
-    Q = 4'b1011;          // Q = -5
+    Q = 4'b1010;          // Q = -5
 
     #20;
     load = 1;             // Load M and Q
@@ -165,11 +165,13 @@ endmodule
 
 ## Nclaunch Work Library Window
 
-![Screenshot 2025-05-21 163301](https://github.com/user-attachments/assets/4dc3ff0b-9533-4acd-98d2-e24df31eb513)
+![VLSI EXP-8](https://github.com/user-attachments/assets/f94cb317-3997-41c8-9ed0-1d9da50cb2ca)
+
 
 ## Simulation Results
 
-![Screenshot 2025-05-21 163243](https://github.com/user-attachments/assets/e7e22fcd-2e89-478a-9ccf-321bf9d6a07c)
+![VLSI EXP-8 OUTPUT](https://github.com/user-attachments/assets/ffe14e71-ac91-4831-986f-506d79606ef0)
+
 
 
 ## Results
